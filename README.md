@@ -20,8 +20,4 @@ The target data is collected from ChEMBL(dataCollection_ChEMBL). From this websi
 It is important to prepare (active-inactive compounds) and transform (pIC50) the dataset for accurate analysis and machine learning models. Molecular descriptors are also related and necesary to achive this. 
 They are a functionally complete set which express a large number features of molecules used to quantitatively describe the physical and chemical information of each. An example of molecular descriptiors is LogP which is a cuantitative representation of lipophilicity of the molecules. In this repository the PaDEL descriptor is selected to transform chemical information encoded within a representation of a molecule into useful numbers (binary) to be applied in a model. Random forest is chosen because it avoid overfitting and deal with imbalanced classes properly.
 
-https://github.com/grammaloreto/Bioactivity/tree/main/Active-Inactive_types
-https://github.com/grammaloreto/Bioactivity/tree/main/MeasurementTransformation
-https://github.com/grammaloreto/Bioactivity/tree/main/descriptors4binaryDF
-
 Finally after running the model one of the active compounds (Bortezomib) is picked to make an anlysis and find similar molecules. Is well know that this molecule is a proteasome (our target) inhibitor used to treat multiple myeloma and mantle cell lymphoma. Currently most drugs are characterized for attack more than one target so it is pertinent to find more entities where we can use this molecule or their derivates. 
